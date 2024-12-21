@@ -1,4 +1,6 @@
 [core]
-    remote = remote
+    remote = local_remote
 ['remote "remote"']
     url = ../TEMP
+['remote "local_remote"']
+    url = ../remote_data
